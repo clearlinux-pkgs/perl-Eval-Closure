@@ -1,5 +1,5 @@
 PKG_NAME := perl-Eval-Closure
-URL := http://search.cpan.org/CPAN/authors/id/D/DO/DOY/Eval-Closure-0.14.tar.gz
-
+URL = https://cpan.metacpan.org/authors/id/D/DO/DOY/Eval-Closure-0.14.tar.gz
+ARCHIVES = 
 
 include ../common/Makefile.common
