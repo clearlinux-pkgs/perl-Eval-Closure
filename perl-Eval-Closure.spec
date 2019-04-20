@@ -4,10 +4,10 @@
 #
 Name     : perl-Eval-Closure
 Version  : 0.14
-Release  : 17
+Release  : 18
 URL      : https://cpan.metacpan.org/authors/id/D/DO/DOY/Eval-Closure-0.14.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/D/DO/DOY/Eval-Closure-0.14.tar.gz
-Summary  : 'safely and cleanly create closures via string eval'
+Summary  : safely and cleanly create closures via string eval
 Group    : Development/Tools
 License  : Artistic-1.0 Artistic-1.0-Perl Artistic-2.0 GPL-1.0
 Requires: perl-Eval-Closure-license = %{version}-%{release}
@@ -25,6 +25,7 @@ safely and cleanly create closures via string eval
 Summary: dev components for the perl-Eval-Closure package.
 Group: Development
 Provides: perl-Eval-Closure-devel = %{version}-%{release}
+Requires: perl-Eval-Closure = %{version}-%{release}
 
 %description dev
 dev components for the perl-Eval-Closure package.
