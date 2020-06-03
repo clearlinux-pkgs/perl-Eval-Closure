@@ -4,7 +4,7 @@
 #
 Name     : perl-Eval-Closure
 Version  : 0.14
-Release  : 20
+Release  : 21
 URL      : https://cpan.metacpan.org/authors/id/D/DO/DOY/Eval-Closure-0.14.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/D/DO/DOY/Eval-Closure-0.14.tar.gz
 Summary  : 'safely and cleanly create closures via string eval'
@@ -100,4 +100,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.2/Eval/Closure.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Eval/Closure.pm
