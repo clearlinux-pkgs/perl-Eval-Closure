@@ -4,7 +4,7 @@
 #
 Name     : perl-Eval-Closure
 Version  : 0.14
-Release  : 30
+Release  : 31
 URL      : https://cpan.metacpan.org/authors/id/D/DO/DOY/Eval-Closure-0.14.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/D/DO/DOY/Eval-Closure-0.14.tar.gz
 Summary  : 'safely and cleanly create closures via string eval'
